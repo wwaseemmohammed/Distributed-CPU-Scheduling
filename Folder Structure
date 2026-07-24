@@ -1,0 +1,24 @@
+Distributed-CPU-Scheduling/
+
+│
+├── Client/
+│   ├── Client.cpp
+│   └── Client.h
+│
+├── Server/
+│   ├── Server.cpp
+│   ├── Server.h
+│   ├── Process.cpp
+│   └── Process.h
+│
+├── Scheduler/
+│   ├── Scheduler.cpp
+│   ├── Scheduler.h
+│   ├── Result.cpp
+│   └── Result.h
+│
+├── Report/
+│
+├── README.md
+│
+└── .gitignore
