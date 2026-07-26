@@ -1,24 +1,46 @@
 Distributed-CPU-Scheduling/
-
 │
-├── Client/
-│   ├── Client.cpp
-│   └── Client.h
+├── client/
+│   ├── __init__.py
+│   ├── client.py
+│   └── process_generator.py
 │
-├── Server/
-│   ├── Server.cpp
-│   ├── Server.h
-│   ├── Process.cpp
-│   └── Process.h
+├── server/
+│   ├── __init__.py
+│   ├── server.py
+│   ├── client_handler.py
+│   └── ready_queue.py
 │
-├── Scheduler/
-│   ├── Scheduler.cpp
-│   ├── Scheduler.h
-│   ├── Result.cpp
-│   └── Result.h
+├── scheduler/
+│   ├── __init__.py
+│   ├── scheduler.py
+│   ├── fcfs.py
+│   ├── sjf.py
+│   ├── priority.py
+│   ├── round_robin.py
+│   └── result.py
 │
-├── Report/
+├── models/
+│   ├── __init__.py
+│   └── process.py
 │
+├── utils/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── network_utils.py
+│   └── helpers.py
+│
+├── tests/
+│   ├── client_test.py
+│   ├── server_test.py
+│   └── scheduler_test.py
+│
+├── report/
+│   ├── results.csv
+│   ├── graph.png
+│   └── report.docx
+│
+├── requirements.txt
 ├── README.md
-│
-└── .gitignore
+├── .gitignore
+└── main.py
